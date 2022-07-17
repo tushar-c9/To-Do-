@@ -27,7 +27,7 @@ const Todo = () => {
         <div className='main-div'>
             <div className='child-div'>
                 <figure>
-                    <img src='./images/Todo.svg' alt='Todologo'/>
+                    <img src='./images/todo1.jpg' alt='Todologo' className='todo-img'/>
                     <figcaption>Add Your ToDo List Here  </figcaption>
                 </figure>
                 <div className='addItem'>
@@ -49,7 +49,6 @@ const Todo = () => {
                             <div className='eachItem'>
                                 <h3>{currElem}</h3>
                                 <div className='todo-btn'>
-                                    <i className="fa fa-solid fa-pen-to-square add-btn"></i>
                                     <i className="fa fa-thin fa-trash add-btn"></i>
                                 </div>
                             </div>
