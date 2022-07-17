@@ -218,3 +218,7 @@ input:focus {
   -webkit-transform: translateY(0) scale(1, 1);
   transform: translateY(0) scale(1, 1);
 }
+
+.todo-btn{
+    padding-left: 30px;
+}
